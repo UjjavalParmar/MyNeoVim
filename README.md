@@ -1,1 +1,1 @@
-**2023 nivm Config**
+**2023 nvim Config**
