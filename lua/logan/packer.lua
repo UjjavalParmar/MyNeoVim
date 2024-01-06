@@ -77,4 +77,11 @@ return require('packer').startup(function(use)
 
     use("folke/zen-mode.nvim")
     use("github/copilot.vim")
+
+
+    use {
+        "windwp/nvim-autopairs",
+        config = function() require("nvim-autopairs").setup {} end
+    }
+
 end)
