@@ -1,5 +1,7 @@
 vim.opt.guicursor = ""
 
+vim.o.completeopt = "menuone,noselect"
+
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
