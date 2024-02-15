@@ -5,9 +5,7 @@ lsp.preset("recommended")
 local lspconfig = require('lspconfig')
 lspconfig.tsserver.setup {}
 lsp.ensure_installed({
-    'tsserver',
     'rust_analyzer',
-    'jsonls',
     'html',
 })
 

@@ -19,15 +19,6 @@ return require('packer').startup(function(use)
         use("mbbill/undotree")
         use("nvim-treesitter/nvim-treesitter-context");
 
-
-        use "nvim-lua/plenary.nvim"
-        use {
-            "ThePrimeagen/harpoon",
-            branch = "harpoon2",
-            requires = { { "nvim-lua/plenary.nvim" } }
-        }
-
-
         use {
             'VonHeikemen/lsp-zero.nvim',
             branch = 'v1.x',
@@ -60,7 +51,4 @@ return require('packer').startup(function(use)
             "windwp/nvim-autopairs",
             config = function() require("nvim-autopairs").setup {} end
         }
-
-        use("laytan/cloak.nvim")
-
     end)
