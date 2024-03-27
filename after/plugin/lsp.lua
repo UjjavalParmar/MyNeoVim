@@ -5,7 +5,6 @@ lsp.preset("recommended")
 local lspconfig = require('lspconfig')
 lspconfig.tsserver.setup {}
 lsp.ensure_installed({
-    'rust_analyzer',
 })
 
 -- Fix Undefined global 'vim'
